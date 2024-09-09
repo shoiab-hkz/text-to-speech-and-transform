@@ -1,0 +1,40 @@
+body{
+    background: #e0e0e0;
+}
+
+
+
+.content{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15vh;
+}
+.actions{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button{
+    padding: 10px 30px;
+    font: 20px bold;
+    background: #d1d1d1;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    border: black 1px dashed;
+    
+}
+#input{
+    border-radius: 10px;
+    background: hsl(0, 0%, 78%);
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    font-size: 20px ;
+}
